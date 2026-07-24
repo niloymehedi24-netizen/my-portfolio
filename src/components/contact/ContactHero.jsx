@@ -1,4 +1,5 @@
 import Container from "../shared/Container";
+import MotionWrapper from "../shared/MotionWrapper";
 
 export default function ContactHero() {
   return (
@@ -7,21 +8,23 @@ export default function ContactHero() {
       <div className="absolute bottom-0 right-0 h-80 w-80 rounded-full bg-cyan-500/10 blur-3xl"></div>
 
       <Container>
-        <div className="mx-auto max-w-3xl text-center">
-          <span className="rounded-full border border-blue-500/30 bg-blue-500/10 px-4 py-2 text-sm text-blue-400">
-            Let&apos;s Connect
-          </span>
+        <MotionWrapper>
+          <div className="mx-auto max-w-3xl text-center">
+            <span className="rounded-full border border-blue-500/30 bg-blue-500/10 px-4 py-2 text-sm text-blue-400">
+              Let&apos;s Connect
+            </span>
 
-          <h1 className="mt-6 text-5xl font-bold lg:text-6xl">
-            Let&apos;s Work Together
-          </h1>
+            <h1 className="mt-6 text-5xl font-bold lg:text-6xl">
+              Let&apos;s Work Together
+            </h1>
 
-          <p className="mt-8 text-lg leading-8 text-slate-400">
-            Have an idea, project or opportunity? I&apos;m always open to
-            discussing exciting collaborations and connecting with amazing
-            people.
-          </p>
-        </div>
+            <p className="mt-8 text-lg leading-8 text-slate-400">
+              Have an idea, project or opportunity? I&apos;m always open to
+              discussing exciting collaborations and connecting with amazing
+              people.
+            </p>
+          </div>
+        </MotionWrapper>
       </Container>
     </section>
   );
