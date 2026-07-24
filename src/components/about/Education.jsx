@@ -24,7 +24,7 @@ export default function Education() {
                 Bachelor of Business Administration (BBA)
               </h3>
 
-              <p className="mt-2 text-slate-400">Royal University o Dhaka</p>
+              <p className="mt-2 text-slate-400">Royal University of Dhaka</p>
 
               <p className="mt-2 text-slate-500">
                 Faculty of Business Administration
