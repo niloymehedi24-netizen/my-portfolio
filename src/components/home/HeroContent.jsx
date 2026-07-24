@@ -2,14 +2,14 @@
 
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
-import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 
 import HeroStats from "./HeroStats";
 
 export default function HeroContent() {
   return (
     <div>
-      <p className="mb-3 text-lg font-medium text-blue-400">Hello, I am</p>
+      <p className="mb-3 text-lg font-medium text-blue-400">Hello, I&apos;m</p>
 
       <h1 className="mb-4 text-5xl font-bold leading-tight lg:text-7xl">
         Mehedi Hasan Niloy

@@ -23,19 +23,19 @@ export default function CTA() {
             </span>
 
             <h2 className="mx-auto mt-8 max-w-3xl text-4xl font-bold leading-tight text-white lg:text-5xl">
-              Let's Build Something Amazing Together
+              Let&apos;s Build Something Amazing Together
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-slate-400">
               Whether you have a project idea, freelance opportunity, or simply
-              want to connect, I'd love to hear from you.
+              want to connect, I&apos;d love to hear from you.
             </p>
 
             <Link
               href="/contact"
               className="mt-10 inline-flex items-center gap-2 rounded-xl bg-blue-600 px-8 py-4 font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-blue-700 hover:shadow-lg hover:shadow-blue-500/30"
             >
-              Let's Talk
+              Let&apos;s Talk
               <ArrowRight size={20} />
             </Link>
           </div>
