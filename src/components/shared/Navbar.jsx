@@ -59,7 +59,7 @@ export default function Navbar() {
           {/* Right Side */}
           <div className="hidden items-center gap-4 lg:flex">
             <a
-              href="https://github.com/YOUR_GITHUB_USERNAME"
+              href="https://github.com/niloymehedi24-netizen"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xl transition hover:text-blue-500"
@@ -68,7 +68,7 @@ export default function Navbar() {
             </a>
 
             <a
-              href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME"
+              href="https://linkedin.com/in/mehedi-niloy"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xl transition hover:text-blue-500"
