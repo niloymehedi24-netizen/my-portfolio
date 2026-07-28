@@ -133,13 +133,6 @@ export default function Navbar() {
                   <FaLinkedin />
                 </a>
               </div>
-
-              <a
-                href="/resume/Mehedi_Hasan_Niloy_Resume.pdf"
-                className="mt-6 rounded-lg bg-blue-600 py-3 text-center font-semibold"
-              >
-                Download Resume
-              </a>
             </nav>
           </Container>
         </div>
