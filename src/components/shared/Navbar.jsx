@@ -135,7 +135,7 @@ export default function Navbar() {
               </div>
 
               <a
-                href="#"
+                href="/resume/Mehedi_Hasan_Niloy_Resume.pdf"
                 className="mt-6 rounded-lg bg-blue-600 py-3 text-center font-semibold"
               >
                 Download Resume
