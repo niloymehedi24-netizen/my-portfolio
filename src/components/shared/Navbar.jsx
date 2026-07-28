@@ -77,7 +77,7 @@ export default function Navbar() {
             </a>
 
             <a
-              href="#"
+              href="/resume/Mehedi_Hasan_Niloy_Resume"
               className="rounded-lg bg-blue-600 px-5 py-2 font-medium transition hover:bg-blue-700"
             >
               Resume
