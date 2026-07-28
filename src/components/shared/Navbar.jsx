@@ -76,12 +76,12 @@ export default function Navbar() {
               <FaLinkedin />
             </a>
 
-            <a
-              href="/resume/Mehedi_Hasan_Niloy_Resume"
-              className="rounded-lg bg-blue-600 px-5 py-2 font-medium transition hover:bg-blue-700"
+            <Link
+              href="/resume/Mehedi_Hasan_Niloy_Resume.pdf"
+              className="rounded-xl bg-blue-600 px-5 py-3 font-semibold transition hover:bg-blue-700"
             >
-              Resume
-            </a>
+              Download Resume
+            </Link>
           </div>
 
           {/* Mobile Button */}
@@ -132,6 +132,12 @@ export default function Navbar() {
                 >
                   <FaLinkedin />
                 </a>
+                <Link
+                  href="/resume/Mehedi_Hasan_Niloy_Resume.pdf"
+                  className="rounded-xl bg-blue-600 px-5 py-3 font-semibold transition hover:bg-blue-700"
+                >
+                  Download Resume
+                </Link>
               </div>
             </nav>
           </Container>
