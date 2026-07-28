@@ -80,7 +80,7 @@ export default function Navbar() {
               href="/resume/Mehedi_Hasan_Niloy_Resume.pdf"
               className="rounded-xl bg-blue-600 px-5 py-3 font-semibold transition hover:bg-blue-700"
             >
-              Download Resume
+              Resume
             </Link>
           </div>
 
@@ -136,7 +136,7 @@ export default function Navbar() {
                   href="/resume/Mehedi_Hasan_Niloy_Resume.pdf"
                   className="rounded-xl bg-blue-600 px-5 py-3 font-semibold transition hover:bg-blue-700"
                 >
-                  Download Resume
+                  Resume
                 </Link>
               </div>
             </nav>
